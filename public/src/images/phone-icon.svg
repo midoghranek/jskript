@@ -1,0 +1,15 @@
+<svg id="baseline-mobile_friendly-24px" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #03dac6;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <path id="Path_2117" data-name="Path 2117" class="cls-1" d="M50.957,1H20.744C17.42,1,14.7,3.373,14.7,6.273v7.909h6.043V8.909H50.957V51.091H20.744V45.818H14.7v7.909c0,2.9,2.719,5.273,6.043,5.273H50.957C54.281,59,57,56.627,57,53.727V6.273C57,3.373,54.281,1,50.957,1ZM14.732,33.875l-7.7-6.723L3.19,30.5,14.7,40.545,36.425,21.59l-3.837-3.348Z" transform="translate(0)"/>
+  <path id="Path_2118" data-name="Path 2118" class="cls-2" d="M0,0H60V60H0Z"/>
+</svg>

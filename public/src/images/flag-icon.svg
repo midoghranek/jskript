@@ -1,0 +1,15 @@
+<svg id="baseline-assistant_photo-24px" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #03dac6;
+      }
+    </style>
+  </defs>
+  <path id="Path_2121" data-name="Path 2121" class="cls-1" d="M0,0H60V60H0Z"/>
+  <path id="Path_2122" data-name="Path 2122" class="cls-2" d="M36.96,10.235,35.6,4H5V57h6.8V35.176H30.84l1.36,6.235H56V10.235Z" transform="translate(0 0)"/>
+</svg>

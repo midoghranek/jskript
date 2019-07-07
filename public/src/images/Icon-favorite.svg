@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.277" height="44" viewBox="0 0 41.277 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #03dac6;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="41.277" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Favorite_Filled" data-name="Icon / Favorite / Filled" class="cls-2">
+    <rect id="Box" class="cls-1" width="41.277" height="41.277"/>
+    <path id="Icon_Favorite" data-name="Icon / Favorite" class="cls-3" d="M372.638-1376.65l-2.7-2.758c-9.6-9.76-15.936-16.2-15.936-24.1,0-6.437,4.51-11.494,10.251-11.494a10.715,10.715,0,0,1,8.387,4.367,10.715,10.715,0,0,1,8.387-4.367c5.741,0,10.251,5.058,10.251,11.494,0,7.9-6.337,14.337-15.936,24.118Z" transform="translate(-352 1418)"/>
+  </g>
+</svg>

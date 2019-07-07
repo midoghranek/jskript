@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3464.835" height="5595.123" viewBox="0 0 3464.835 5595.123">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #03dac6;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f6f6f6"/>
+    </linearGradient>
+  </defs>
+  <g id="BACKGROUND" transform="translate(770.175 -1044.071)">
+    <path id="Path_2132" data-name="Path 2132" class="cls-1" d="M4829.81,6428.012c626.608,313.3,809.662,654.771,390.75,601.966S4829.81,6428.012,4829.81,6428.012Z" transform="translate(-5086 -1132)"/>
+    <path id="Path_2133" data-name="Path 2133" class="cls-1" d="M7167.73,6290.722c-713.675,390.75-244.151,1471.473-244.151,1471.473l511.78-70.405Z" transform="translate(-5227.002 -1123)"/>
+    <path id="Path_2130" data-name="Path 2130" class="cls-1" d="M337.893,886.071C356.142,922.57,1213.858,73.977,757.627,10.1S-90.963,192.6,18.531,539.335,319.645,849.572,337.893,886.071Z" transform="matrix(-0.309, 0.951, -0.951, -0.309, 349, 4107.915)"/>
+    <path id="Path_2131" data-name="Path 2131" class="cls-1" d="M5292.714,2266.3s-398.129,399.31-239.524,434.733,132.709,32.2,132.709,32.2l184.5-128.809L5292.714,2266.3Z" transform="translate(-3258.399 2022.522)"/>
+    <path id="Path_2124" data-name="Path 2124" class="cls-1" d="M5093.545,2266.3s398.129,399.31,239.524,434.733-132.709,32.2-132.709,32.2l-184.5-128.809,77.684-338.125Z" transform="translate(-5204.399 -824.478)"/>
+    <path id="Path_2125" data-name="Path 2125" class="cls-1" d="M6590.608,2294.65c196.563,160.982,153.112-36.679,153.112-36.679Z" transform="translate(-4432.201 -2690.059) rotate(13.5)"/>
+    <path id="Path_2127" data-name="Path 2127" class="cls-1" d="M5661.538,2982.2c18.249-36.5,875.965,812.094,419.733,875.967s-848.59-182.493-739.1-529.23S5643.29,3018.7,5661.538,2982.2Z" transform="matrix(0.309, 0.951, -0.951, 0.309, 3609.333, -4773.534)"/>
+    <path id="Path_2123" data-name="Path 2123" class="cls-2" d="M4910.416,3107.337C6987.64,3285.511,6830.1,4208.322,6830.1,4208.322v224.961l2.126,31.044-2.126,15.734-1919.681.269Z" transform="translate(-4910.416 -646.337)"/>
+  </g>
+</svg>

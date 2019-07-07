@@ -1,0 +1,15 @@
+<svg id="baseline-thumb_up-24px" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #03dac6;
+      }
+    </style>
+  </defs>
+  <path id="Path_2113" data-name="Path 2113" class="cls-1" d="M0,0H60V60H0Z"/>
+  <path id="Path_2114" data-name="Path 2114" class="cls-2" d="M1,49.631h9.785V20.452H1ZM54.815,22.884a4.892,4.892,0,0,0-4.892-4.863H34.488L36.812,6.909l.073-.778a3.649,3.649,0,0,0-1.076-2.577L33.216,1,17.12,17.024a4.74,4.74,0,0,0-1.443,3.428V44.768a4.892,4.892,0,0,0,4.892,4.863H42.585a4.86,4.86,0,0,0,4.5-2.966l7.387-17.142a4.779,4.779,0,0,0,.342-1.775Z" transform="translate(2.092 2.092)"/>
+</svg>
