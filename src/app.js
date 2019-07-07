@@ -11,7 +11,7 @@ app.use(contactRouter);
 // NOTE Paths
 const publicDirPath = path.join(__dirname, "../public");
 
-// NOTE Handlebars and css
+// NOTE  access to front-end
 app.use(express.static(publicDirPath));
 
 module.exports = app;
