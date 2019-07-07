@@ -1,4 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 body {
-  background-color: #DDD;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  max-width: 1520px;
+  margin: auto;
+}
+
+.box-inner {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.home {
+  height: 100vh;
+  color: #fff;
+}
+
+.home .home-bg {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home .home-bg:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url("/src/images/homebgimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.home .home-overlay {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #0000005c;
+}
+
+.home .home-content {
+  position: relative;
+  top: 70px;
+  z-index: 1;
+}
+
+.home .home-content header {
+  overflow: hidden;
+}
+
+.home .home-content header .logo {
+  float: left;
+}
+
+.home .home-content header .logo h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.home .home-content header nav {
+  float: right;
+}
+
+.home .home-content header nav ul {
+  list-style: none;
+}
+
+.home .home-content header nav ul li {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.home .home-content header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.home .home-content .content {
+  margin-top: 300px;
+  display: inline-block;
+  border-top: 1px solid #fff;
+  padding-top: 50px;
+  padding-right: 50px;
+  margin-left: 200px;
+}
+
+.home .home-content .content h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.home .home-content .content p {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
