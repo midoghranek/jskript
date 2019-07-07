@@ -102,3 +102,42 @@ body {
     }
   }
 }
+
+.page {
+  position: relative;
+  z-index: 0;
+  &::before {
+    content: "";
+    background: url(/src/images/BACKGROUND.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -39px;
+    z-index: -1;
+  }
+  .title {
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    &::after {
+      content: "";
+      width: 100px;
+      height: 1px;
+      background-color: #707070;
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      margin-left: -50px;
+    }
+  }
+  .about {
+    padding-top: 140px;
+  }
+}
