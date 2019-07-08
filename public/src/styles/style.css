@@ -202,7 +202,7 @@ body {
 
 .page .about .card p {
   font-size: 34px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 100px;
   color: #333;
   margin-bottom: 0;
@@ -372,10 +372,6 @@ body {
   margin-top: 70px;
 }
 
-.page .contact .contact-inner .contact-form .name-fields {
-  overflow: hidden;
-}
-
 .page .contact .contact-inner .contact-form .input-field {
   height: 60px;
   position: relative;
@@ -389,8 +385,21 @@ body {
   cursor: text;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
-  background: #fff;
-  padding: 0 10px;
+  z-index: 1;
+  -webkit-animation: inputBlur 0.2s ease;
+          animation: inputBlur 0.2s ease;
+}
+
+.page .contact .contact-inner .contact-form .input-field label::after {
+  content: "";
+  height: 2px;
+  width: 120%;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+  top: -8.3px;
+  left: -10%;
+  z-index: -1;
 }
 
 .page .contact .contact-inner .contact-form .input-field input {
@@ -415,15 +424,22 @@ body {
   border-color: #03dac6;
 }
 
-.page .contact .contact-inner .contact-form .input-field input:focus ~ label,
-.page .contact .contact-inner .contact-form .input-field input:active ~ label {
-  left: 10px;
+.page .contact .contact-inner .contact-form .active input {
+  border-color: #03dac6;
+}
+
+.page .contact .contact-inner .contact-form .active input:hover {
+  border-color: #03dac6;
+}
+
+.page .contact .contact-inner .contact-form .active label {
+  left: 20px;
   font-size: 14px;
   color: #03dac6;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  -webkit-animation: inputHighlighter 0.2s ease;
-          animation: inputHighlighter 0.2s ease;
+  -webkit-animation: inputFocus 0.2s ease;
+          animation: inputFocus 0.2s ease;
 }
 
 .page .contact .contact-inner .contact-form .colmn2 {
@@ -452,29 +468,55 @@ body {
   cursor: pointer;
 }
 
-@-webkit-keyframes inputHighlighter {
+@-webkit-keyframes inputFocus {
   from {
     left: 30px;
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
   }
   to {
-    left: 10px;
+    left: 20px;
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
 }
 
-@keyframes inputHighlighter {
+@keyframes inputFocus {
   from {
     left: 30px;
     -webkit-transform: translateY(20px);
             transform: translateY(20px);
   }
   to {
-    left: 10px;
+    left: 20px;
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
+  }
+}
+
+@-webkit-keyframes inputBlur {
+  from {
+    left: 20px;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    left: 30px;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes inputBlur {
+  from {
+    left: 20px;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    left: 30px;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
   }
 }
 

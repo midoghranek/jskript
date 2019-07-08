@@ -33,9 +33,6 @@
       width: 670px;
       margin: auto;
       margin-top: 70px;
-      .name-fields {
-        overflow: hidden;
-      }
       .input-field {
         height: 60px;
         position: relative;
@@ -46,8 +43,19 @@
           left: 30px;
           cursor: text;
           transform: translateY(20px);
-          background: #fff;
-          padding: 0 10px;
+          z-index: 1;
+          animation: inputBlur 0.2s ease;
+          &::after {
+            content: "";
+            height: 2px;
+            width: 120%;
+            background-color: #ffffff;
+            display: block;
+            position: relative;
+            top: -8.3px;
+            left: -10%;
+            z-index: -1;
+          }
         }
         input {
           box-sizing: border-box;
@@ -65,14 +73,21 @@
             outline: 0;
             border-color: $maincolor;
           }
-          &:focus ~ label,
-          &:active ~ label {
-            left: 10px;
-            font-size: 14px;
-            color: $maincolor;
-            transform: translateY(-10px);
-            animation: inputHighlighter 0.2s ease;
+        }
+      }
+      .active {
+        input {
+          border-color: $maincolor;
+          &:hover {
+            border-color: $maincolor;
           }
+        }
+        label {
+          left: 20px;
+          font-size: 14px;
+          color: $maincolor;
+          transform: translateY(-10px);
+          animation: inputFocus 0.2s ease;
         }
       }
       .colmn2 {
@@ -101,13 +116,24 @@
   }
 }
 
-@keyframes inputHighlighter {
+@keyframes inputFocus {
   from {
     left: 30px;
     transform: translateY(20px);
   }
   to {
-    left: 10px;
+    left: 20px;
     transform: translateY(-10px);
+  }
+}
+
+@keyframes inputBlur {
+  from {
+    left: 20px;
+    transform: translateY(-10px);
+  }
+  to {
+    left: 30px;
+    transform: translateY(20px);
   }
 }
