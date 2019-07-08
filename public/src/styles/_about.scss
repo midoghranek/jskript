@@ -1,0 +1,52 @@
+.about {
+  padding-top: 150px;
+  .card {
+    text-align: center;
+    h3 {
+      text-transform: uppercase;
+      font-size: 48px;
+      font-weight: 500;
+      margin-top: 130px;
+      color: #222;
+    }
+    p {
+      font-size: 34px;
+      font-weight: 500;
+      margin-top: 100px;
+      color: #333;
+      margin-bottom: 0;
+    }
+  }
+  .team {
+    overflow: hidden;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 200px;
+    h3 {
+      font-size: 60px;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: 120px;
+    }
+    .member {
+      float: left;
+      width: 300px;
+      text-align: center;
+      .inner {
+        width: 200px;
+        margin: auto;
+      }
+      img {
+        width: 165px;
+        height: 165px;
+        border-radius: 100%;
+      }
+      h4 {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 24px;
+      }
+    }
+  }
+}
