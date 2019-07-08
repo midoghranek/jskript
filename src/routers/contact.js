@@ -4,10 +4,6 @@ const replyMail = require("../emails/account");
 
 const router = new express.Router();
 
-router.get("", (req, res) => {
-    res.render("index");
-});
-
 router.post("/send", (req, res) => {
     try {
         // TODO Use user message
