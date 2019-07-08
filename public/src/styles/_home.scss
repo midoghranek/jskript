@@ -1,0 +1,91 @@
+.home {
+  height: 100vh;
+  color: #fff;
+  .home-bg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: {
+        image: url("/src/images/homebgimage.jpg");
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+      }
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+      transform: scale(1.1);
+    }
+  }
+  .home-overlay {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #0000005c;
+  }
+  .home-content {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+    header {
+      overflow: hidden;
+      .logo {
+        float: left;
+        h1 {
+          margin: 0;
+          font-weight: 300;
+          font-size: 60px;
+        }
+      }
+      nav {
+        float: right;
+        ul {
+          list-style: none;
+          li {
+            display: inline-block;
+            margin-left: 100px;
+            a {
+              color: #ffffff;
+              text: {
+                decoration: none;
+                transform: uppercase;
+              }
+              font: {
+                weight: 600;
+                size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .content {
+      margin-top: 300px;
+      display: inline-block;
+      border-top: 1px solid #fff;
+      padding-top: 50px;
+      padding-right: 50px;
+      margin-left: 200px;
+      h2 {
+        margin-top: 0;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 60px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+  }
+}

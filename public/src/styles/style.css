@@ -1,25 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-body {
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-.box {
-  max-width: 1520px;
-  margin: auto;
-}
-
-.box-inner {
-  max-width: 1120px;
-  margin: auto;
-}
-
-.icon {
-  display: block;
-}
-
 .icon.like {
   background: url("/src/images/thumb-icon.svg");
 }
@@ -42,6 +21,27 @@ body {
 
 .icon.search {
   background: url("/src/images/search-icon.svg");
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  max-width: 1520px;
+  margin: auto;
+}
+
+.box-inner {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.icon {
+  display: block;
 }
 
 .clear {

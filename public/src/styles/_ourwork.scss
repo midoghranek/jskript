@@ -1,0 +1,27 @@
+.ourwork {
+  padding-top: 100px;
+  .title {
+    margin-bottom: 150px;
+  }
+  .content {
+    overflow: hidden;
+    .inner {
+      overflow: hidden;
+      margin: {
+        left: -1%;
+        right: -1%;
+      }
+    }
+    .work {
+      float: left;
+      width: 23%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-bottom: 100px;
+      overflow: hidden;
+      img {
+        height: 290px;
+      }
+    }
+  }
+}
