@@ -372,6 +372,10 @@ body {
   margin-top: 70px;
 }
 
+.page .contact .contact-inner .contact-form .name-fields {
+  overflow: hidden;
+}
+
 .page .contact .contact-inner .contact-form .input-field {
   height: 60px;
   position: relative;
@@ -385,6 +389,8 @@ body {
   cursor: text;
   -webkit-transform: translateY(20px);
           transform: translateY(20px);
+  background: #fff;
+  padding: 0 10px;
 }
 
 .page .contact .contact-inner .contact-form .input-field input {
@@ -402,6 +408,22 @@ body {
 
 .page .contact .contact-inner .contact-form .input-field input:hover {
   border-color: #333333;
+}
+
+.page .contact .contact-inner .contact-form .input-field input:focus {
+  outline: 0;
+  border-color: #03dac6;
+}
+
+.page .contact .contact-inner .contact-form .input-field input:focus ~ label,
+.page .contact .contact-inner .contact-form .input-field input:active ~ label {
+  left: 10px;
+  font-size: 14px;
+  color: #03dac6;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-animation: inputHighlighter 0.2s ease;
+          animation: inputHighlighter 0.2s ease;
 }
 
 .page .contact .contact-inner .contact-form .colmn2 {
@@ -428,6 +450,32 @@ body {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    left: 30px;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    left: 10px;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    left: 30px;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  to {
+    left: 10px;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
 }
 
 .page .footer {

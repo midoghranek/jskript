@@ -1,9 +1,11 @@
 // // Javascript
-// const input = document.querySelectorAll(".input-field");
+// const input = document.querySelectorAll(".input-field input");
 
-// input.addEventListener("mouseover", function() {
-//   this.classList.add("active");
-// });
-// input.addEventListener("mouseout", function() {
-//   this.classList.remove("active");
+// input.forEach(field => {
+//   field.addEventListener("focus", function() {
+//     this.parentElement.classList.add("active");
+//   });
+//   field.addEventListener("blur", function() {
+//     this.parentElement.classList.remove("active");
+//   });
 // });
