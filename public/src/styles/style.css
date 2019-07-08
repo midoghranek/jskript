@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-.icon.like {
-  background: url("/src/images/thumb-icon.svg");
-}
-
-.icon.publish {
-  background: url("/src/images/publish-icon.svg");
-}
-
-.icon.mobile {
-  background: url("/src/images/phone-icon.svg");
-}
-
-.icon.code {
-  background: url("/src/images/code-icon.svg");
-}
-
-.icon.flag {
-  background: url("/src/images/flag-icon.svg");
-}
-
-.icon.search {
-  background: url("/src/images/search-icon.svg");
-}
-
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -46,6 +22,30 @@ body {
 
 .clear {
   clear: both;
+}
+
+.icon.like {
+  background: url("/src/images/thumb-icon.svg");
+}
+
+.icon.publish {
+  background: url("/src/images/publish-icon.svg");
+}
+
+.icon.mobile {
+  background: url("/src/images/phone-icon.svg");
+}
+
+.icon.code {
+  background: url("/src/images/code-icon.svg");
+}
+
+.icon.flag {
+  background: url("/src/images/flag-icon.svg");
+}
+
+.icon.search {
+  background: url("/src/images/search-icon.svg");
 }
 
 .home {
