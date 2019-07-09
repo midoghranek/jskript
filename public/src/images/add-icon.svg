@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Add_Filled" data-name="Icon / Add / Filled" transform="translate(0 0)" opacity="0.87" clip-path="url(#clip-path)">
+    <rect id="Box" width="24" height="24" fill="none"/>
+    <path id="_" data-name="+" d="M6,14V8H0V6H6V0H8V6h6V8H8v6Z" transform="translate(5 5)"/>
+  </g>
+</svg>

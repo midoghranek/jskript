@@ -47,6 +47,30 @@
         font-weight: 500;
         font-size: 24px;
       }
+      .more-btn {
+        width: 100px;
+        position: relative;
+        background-color: $maincolor;
+        border-radius: 5px;
+        color: #000000;
+        text-decoration: none;
+        width: 160px;
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-left: 30px;
+        .icon {
+          width: 20px;
+          height: 20px;
+          display: block;
+          position: absolute;
+          top: 17.5px;
+          left: 20px;
+        }
+      }
     }
   }
 }

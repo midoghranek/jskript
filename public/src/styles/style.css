@@ -16,10 +16,6 @@ body {
   margin: auto;
 }
 
-.icon {
-  display: block;
-}
-
 .clear {
   clear: both;
 }
@@ -46,6 +42,22 @@ body {
 
 .icon.search {
   background: url("/src/images/search-icon.svg");
+}
+
+.icon.heart {
+  background: url("/src/images/Icon-favorite.svg");
+}
+
+.icon.send {
+  background: url("/src/images/send-icon.svg");
+}
+
+.icon.add {
+  background: url("/src/images/add-icon.svg");
+}
+
+.icon.link {
+  background: url("/src/images/link-icon.svg");
 }
 
 .home {
@@ -149,6 +161,15 @@ body {
   margin: 0;
 }
 
+.home .home-content .content p .icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  top: 10px;
+}
+
 .page {
   position: relative;
   z-index: 0;
@@ -246,6 +267,32 @@ body {
   font-size: 24px;
 }
 
+.page .about .team .member .more-btn {
+  width: 100px;
+  position: relative;
+  background-color: #03dac6;
+  border-radius: 5px;
+  color: #000000;
+  text-decoration: none;
+  width: 160px;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.page .about .team .member .more-btn .icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 17.5px;
+  left: 20px;
+}
+
 .page .services {
   background-image: url("/src/images/gray-grediant.svg");
   background-size: cover;
@@ -284,6 +331,7 @@ body {
   height: 60px;
   position: absolute;
   left: 0;
+  display: block;
 }
 
 .page .services .blocks .block h3 {
@@ -327,10 +375,39 @@ body {
   margin-right: 1%;
   margin-bottom: 100px;
   overflow: hidden;
+  position: relative;
 }
 
 .page .ourwork .content .work img {
   height: 290px;
+}
+
+.page .ourwork .content .work h5 {
+  margin-left: 2px;
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.page .ourwork .content .work h5 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.page .ourwork .content .work .wicon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.page .ourwork .content .work .wicon .icon {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .page .contact {
@@ -453,19 +530,34 @@ body {
 
 .page .contact .contact-inner .contact-form .submit {
   width: 130px;
+  position: relative;
+  background-color: #03dac6;
+  border-radius: 5px;
 }
 
 .page .contact .contact-inner .contact-form .submit input {
   width: 100%;
   height: 50px;
   border: 0;
-  border-radius: 5px;
-  background-color: #03dac6;
   color: #000000;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
+  padding-left: 40px;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.page .contact .contact-inner .contact-form .submit .icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  z-index: 0;
 }
 
 @-webkit-keyframes inputFocus {
@@ -531,5 +623,14 @@ body {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
+}
+
+.page .footer p .icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  top: 3px;
 }
 /*# sourceMappingURL=style.css.map */

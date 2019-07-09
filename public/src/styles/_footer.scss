@@ -9,5 +9,13 @@
       size: 16px;
       weight: 500;
     }
+    .icon {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-size: cover;
+      position: relative;
+      top: 3px;
+    }
   }
 }
