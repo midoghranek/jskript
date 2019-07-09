@@ -19,3 +19,7 @@ input.forEach(field => {
     }
   });
 });
+
+// document.getElementById("submit").addEventListener("click", function(e) {
+//   e.preventDefault();
+// });

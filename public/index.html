@@ -222,25 +222,30 @@
                   </p>
                 </div>
                 <div class="contact-form">
-                  <form method="POST" action="/send">
+                  <form
+                    action="/send"
+                    method="post"
+                    id="contact-form"
+                    role="form"
+                  >
                     <div class="name-fields">
                       <div id="input-field" class="input-field colmn2">
                         <input id="first_name" type="text" name="first_name" />
-                        <label for="first_name" class="">First Name</label>
+                        <label for="first_name">First Name</label>
                       </div>
                       <div class="input-field colmn2">
                         <input id="last_name" type="text" name="last_name" />
-                        <label for="last_name" class="">Last Name</label>
+                        <label for="last_name">Last Name</label>
                       </div>
                     </div>
                     <div class="clear"></div>
                     <div class="input-field">
-                      <input id="email" type="email" required name="email" />
-                      <label for="email" class="">Email</label>
+                      <input id="email" type="email" name="email" required />
+                      <label for="email">Email</label>
                     </div>
                     <div class="input-field">
-                      <input id="subject" type="text" required name="message" />
-                      <label for="subject" class="">Subject</label>
+                      <input id="subject" type="text" name="message" required />
+                      <label for="subject">Subject</label>
                     </div>
                     <div class="submit">
                       <input id="submit" type="submit" value="Send" />
