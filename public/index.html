@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JSkript</title>
-    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/css/style.min.css" />
   </head>
   <body>
     <div class="container">
-      <section class="home">
+      <section id="home" class="home">
         <div class="home-bg"></div>
         <div class="home-overlay"></div>
         <div class="home-content box">
@@ -19,11 +19,11 @@
             </div>
             <nav>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ourwork">Our Work</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
           </header>
@@ -37,7 +37,10 @@
         </div>
       </section>
       <div class="page">
-        <section class="about">
+        <section id="about" class="about">
+          <i class="art art1"></i>
+          <i class="art art2"></i>
+          <i class="art art3"></i>
           <h2 class="title">About us</h2>
           <div class="card box-inner">
             <h3>We design, develop and manage</h3>
@@ -76,66 +79,71 @@
           </div>
         </section>
         <section class="services">
-          <h2 class="title">Services</h2>
-          <div class="blocks box">
-            <div class="inner">
-              <div class="block">
-                <span class="icon like"></span>
-                <h3>Perfect Design</h3>
-                <p>
-                  We are using modern programs like Adobe Photoshop, Adobe XD
-                  and Illustrator to design perfect UX & UI design for you
-                  project.
-                </p>
-              </div>
-              <div class="block">
-                <span class="icon publish"></span>
-                <h3>Easy to customize</h3>
-                <p>
-                  Our developing team create a very easy to use websites or
-                  applications, you can easily customize it without using any
-                  code in just few minutes.
-                </p>
-              </div>
-              <div class="block">
-                <span class="icon mobile"></span>
-                <h3>Mobile applications</h3>
-                <p>
-                  We are also creating a mobile application for your business,
-                  it's a cross platform application that's mean you can upload
-                  it for both android google play or apple app store.
-                </p>
-              </div>
-              <div class="block">
-                <span class="icon code"></span>
-                <h3>Perfect code</h3>
-                <p>
-                  We are developing a professional apps with clean code, using
-                  Node.js, MongoDB and React to developing useful modern apps.
-                </p>
-              </div>
-              <div class="block">
-                <span class="icon search"></span>
-                <h3>Seo is ready</h3>
-                <p>
-                  We are also provide SEO friendly business sites or blogs. You
-                  can just trust our service amazing service, and get ready for
-                  better google searching results.
-                </p>
-              </div>
-              <div class="block">
-                <span class="icon flag"></span>
-                <h3>We think together</h3>
-                <p>
-                  What do you want? Social media web application, a professional
-                  store site to sell you product or new business site. You can
-                  just ask for and out team will build it for you.
-                </p>
+          <div id="services" class="inner-services">
+            <h2 class="title">Services</h2>
+            <div class="blocks box">
+              <div class="inner">
+                <div class="block">
+                  <span class="icon like"></span>
+                  <h3>Perfect Design</h3>
+                  <p>
+                    We are using modern programs like Adobe Photoshop, Adobe XD
+                    and Illustrator to design perfect UX & UI design for you
+                    project.
+                  </p>
+                </div>
+                <div class="block">
+                  <span class="icon publish"></span>
+                  <h3>Easy to customize</h3>
+                  <p>
+                    Our developing team create a very easy to use websites or
+                    applications, you can easily customize it without using any
+                    code in just few minutes.
+                  </p>
+                </div>
+                <div class="block">
+                  <span class="icon mobile"></span>
+                  <h3>Mobile applications</h3>
+                  <p>
+                    We are also creating a mobile application for your business,
+                    it's a cross platform application that's mean you can upload
+                    it for both android google play or apple app store.
+                  </p>
+                </div>
+                <div class="block">
+                  <span class="icon code"></span>
+                  <h3>Perfect code</h3>
+                  <p>
+                    We are developing a professional apps with clean code, using
+                    Node.js, MongoDB and React to developing useful modern apps.
+                  </p>
+                </div>
+                <div class="block">
+                  <span class="icon search"></span>
+                  <h3>Seo is ready</h3>
+                  <p>
+                    We are also provide SEO friendly business sites or blogs.
+                    You can just trust our service amazing service, and get
+                    ready for better google searching results.
+                  </p>
+                </div>
+                <div class="block">
+                  <span class="icon flag"></span>
+                  <h3>We think together</h3>
+                  <p>
+                    What do you want? Social media web application, a
+                    professional store site to sell you product or new business
+                    site. You can just ask for and out team will build it for
+                    you.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="ourwork">
+        <section id="ourwork" class="ourwork">
+          <i class="art art4"></i>
+          <i class="art art5"></i>
           <h2 class="title">Our Work</h2>
           <div class="content box-inner">
             <div class="inner">
@@ -198,7 +206,9 @@
             </div>
           </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
+          <i class="art art6"></i>
+          <i class="art art7"></i>
           <div class="contact-inner box">
             <div class="contact-inner-inner box-inner">
               <h2 class="title">Get in touch</h2>
@@ -242,7 +252,7 @@
             </div>
           </div>
         </section>
-        <section class="footer">
+        <section id="footer" class="footer">
           <p>Made with <span class="icon heart"></span> in Egypt</p>
         </section>
       </div>

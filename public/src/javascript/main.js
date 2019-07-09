@@ -1,7 +1,5 @@
 // Javascript
-const input = document.querySelectorAll(
-  ".input-field input, input-field textarea"
-);
+const input = document.querySelectorAll(".input-field input");
 
 input.forEach(field => {
   field.addEventListener("change", function() {

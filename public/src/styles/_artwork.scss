@@ -1,0 +1,70 @@
+.page {
+  overflow: hidden;
+}
+.about,
+.services,
+.ourwork,
+.contact {
+  position: relative;
+  z-index: 0;
+}
+.art {
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.art1 {
+  background-image: url("/src/images/artwork/1.svg");
+  left: -190px;
+  width: 400px;
+  height: 500px;
+}
+
+.art2 {
+  background-image: url("/src/images/artwork/2.svg");
+  top: -36px;
+  right: 330px;
+  width: 180px;
+  height: 140px;
+}
+
+.art3 {
+  background-image: url("/src/images/artwork/3.svg");
+  top: 200px;
+  right: -630px;
+  width: 1000px;
+  height: 1100px;
+}
+
+.art4 {
+  background-image: url("/src/images/artwork/4.svg");
+  top: 0;
+  left: -770px;
+  width: 1000px;
+  height: 1100px;
+}
+
+.art5 {
+  background-image: url("/src/images/artwork/5.svg");
+  top: 600px;
+  right: -230px;
+  width: 400px;
+  height: 500px;
+}
+
+.art6 {
+  background-image: url("/src/images/artwork/6.svg");
+  top: 200px;
+  left: -230px;
+  width: 650px;
+  height: 630px;
+}
+
+.art7 {
+  background-image: url("/src/images/artwork/7.svg");
+  top: 100px;
+  right: -35px;
+  width: 470px;
+  height: 1050px;
+}
