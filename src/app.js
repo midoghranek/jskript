@@ -1,7 +1,7 @@
 "user strict";
 const path = require("path");
 const express = require("express");
-const contactRouter = require("./routers/contact");
+const contactRouter = require("./routes/contact");
 
 // NOTE Server
 const app = express();
