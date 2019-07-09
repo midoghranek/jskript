@@ -7,8 +7,7 @@ const router = new express.Router();
 router.post("/send", (req, res) => {
     try {
         // TODO Use user message
-        console.log(req.body);
-        replyMail(req.body.name, req.body.email);
+        replyMail(req.body.first_name, req.body.email);
         // TODO Show message sent confirmation or redirect the user
         res.send();
     } catch (error) {
