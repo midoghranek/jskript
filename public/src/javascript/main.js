@@ -40,9 +40,15 @@ contactForm.addEventListener("submit", function(e) {
     .then(response => {
       if (response.status === 200) {
         document.getElementById("check").innerText =
-          "Message Sent successfully";
+          "Thank you for your message, It has been sent.";
+        document.getElementById("check").style.display = "block";
+        this.reset();
+        input.forEach(field => {
+          field.parentElement.classList.remove("active");
+        });
         setTimeout(function() {
           document.getElementById("check").innerText = "";
+          document.getElementById("check").style.display = "none";
         }, 3000);
       }
     })
