@@ -22,6 +22,7 @@ input.forEach(field => {
   });
 });
 
+// Form
 const contactForm = document.getElementById("contact-form");
 contactForm.addEventListener("submit", function(e) {
   e.preventDefault();
