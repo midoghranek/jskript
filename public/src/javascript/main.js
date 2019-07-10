@@ -22,7 +22,7 @@ input.forEach(field => {
   });
 });
 
-// Form
+// Form control
 const contactForm = document.getElementById("contact-form");
 contactForm.addEventListener("submit", function(e) {
   e.preventDefault();
