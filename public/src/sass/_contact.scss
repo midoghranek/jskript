@@ -57,7 +57,8 @@
             z-index: -1;
           }
         }
-        input {
+        input,
+        textarea {
           box-sizing: border-box;
           height: 60px;
           padding: 0 30px;
@@ -74,9 +75,13 @@
             border-color: $maincolor;
           }
         }
+        textarea {
+          padding-top: 18px;
+        }
       }
       .active {
-        input {
+        input,
+        textarea {
           border-color: $maincolor;
           &:hover {
             border-color: $maincolor;

@@ -1,5 +1,7 @@
 // Javascript
-const input = document.querySelectorAll(".input-field input");
+const input = document.querySelectorAll(
+  ".input-field input, .input-field textarea"
+);
 
 input.forEach(field => {
   field.addEventListener("change", function() {
@@ -20,6 +22,6 @@ input.forEach(field => {
   });
 });
 
-// document.getElementById("submit").addEventListener("click", function(e) {
+// document.getElementById("contact-form").addEventListener("submit", function(e) {
 //   e.preventDefault();
 // });
