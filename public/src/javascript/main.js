@@ -22,6 +22,23 @@ input.forEach(field => {
   });
 });
 
-// document.getElementById("contact-form").addEventListener("submit", function(e) {
-//   e.preventDefault();
-// });
+const contactForm = document.getElementById("contact-form");
+contactForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+  let formData = Object.fromEntries(new FormData(this).entries());
+  formData = JSON.stringify(formData);
+  console.log(formData);
+  fetch("/send", {
+    method: "POST",
+    headers: new Headers({
+      "Content-Type": "application/json"
+    }),
+    body: formData
+  })
+    .then(response => {
+      return console.log(response);
+    })
+    .catch(err => {
+      return console.error(err);
+    });
+});
