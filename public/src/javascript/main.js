@@ -25,6 +25,7 @@ input.forEach(field => {
 const contactForm = document.getElementById("contact-form");
 contactForm.addEventListener("submit", function(e) {
   e.preventDefault();
+  document.getElementById("check").innerText = "Sending message!";
   let formData = Object.fromEntries(new FormData(this).entries());
   formData = JSON.stringify(formData);
   console.log(formData);
@@ -36,7 +37,13 @@ contactForm.addEventListener("submit", function(e) {
     body: formData
   })
     .then(response => {
-      return console.log(response);
+      if (response.status === 200) {
+        document.getElementById("check").innerText =
+          "Message Sent successfully";
+        setTimeout(function() {
+          document.getElementById("check").innerText = "";
+        }, 3000);
+      }
     })
     .catch(err => {
       return console.error(err);
