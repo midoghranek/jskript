@@ -1,6 +1,7 @@
 .home {
-  height: 100vh;
+  height: 50vh;
   color: #fff;
+  position: relative;
   .home-bg {
     position: absolute;
     display: block;
@@ -60,7 +61,7 @@
               }
               font: {
                 weight: 600;
-                size: 20px;
+                size: 17px;
               }
             }
           }
@@ -68,10 +69,10 @@
       }
     }
     .content {
-      margin-top: 300px;
+      margin-top: 100px;
       display: inline-block;
       border-top: 1px solid #fff;
-      padding-top: 50px;
+      padding-top: 25px;
       padding-right: 50px;
       margin-left: 200px;
       h2 {
@@ -79,7 +80,7 @@
         text-transform: uppercase;
         font-weight: 300;
         font-size: 60px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
       }
       p {
         font-size: 25px;

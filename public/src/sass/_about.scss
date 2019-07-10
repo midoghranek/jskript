@@ -1,20 +1,18 @@
 .about {
   padding-top: 150px;
-  margin-bottom: -200px;
-  z-index: 1;
   .card {
     text-align: center;
     h3 {
       text-transform: uppercase;
-      font-size: 44px;
+      font-size: 34px;
       font-weight: 500;
       margin-top: 130px;
       color: #222;
     }
     p {
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 400;
-      margin-top: 100px;
+      margin-top: 50px;
       color: #333;
       margin-bottom: 0;
     }
@@ -23,15 +21,14 @@
     overflow: hidden;
     max-width: 600px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     h3 {
-      font-size: 60px;
+      font-size: 44px;
       font-weight: 300;
       text-transform: uppercase;
       margin: 0;
-      margin-bottom: 120px;
+      margin-bottom: 80px;
     }
-
     .member {
       float: left;
       width: 300px;
@@ -48,7 +45,7 @@
       h4 {
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 18px;
       }
       .more-btn {
         width: 100px;
@@ -57,20 +54,21 @@
         border-radius: 5px;
         color: #000000;
         text-decoration: none;
-        width: 160px;
-        height: 60px;
-        line-height: 60px;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
         display: block;
         font-size: 14px;
         font-weight: 500;
         text-transform: uppercase;
         padding-left: 30px;
+        margin: auto;
         .icon {
           width: 20px;
           height: 20px;
           display: block;
           position: absolute;
-          top: 17.5px;
+          top: 7.5px;
           left: 20px;
         }
       }
