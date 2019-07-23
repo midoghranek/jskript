@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+    "plugins": ["prettier"],
+    "rules": {
+        "indent": ["warn", "tab"],
+        "linebreak-style": ["error", "windows"],
+        "quotes": "off",
+        "semi": "off",
+        "no-unused-vars": "warn",
+        "camelcase": "off",
+        "no-console": "off",
+        "func-names": "off",
+        "no-underscore-dangle": "off",
+        "radix": "off",
+        "import/no-dynamic-require": "off",
+        "consistent-return": "warn"
+    }
+}

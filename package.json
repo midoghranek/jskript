@@ -1,20 +1,34 @@
 {
-  "name": "jskript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js -e js,hbs"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "nodemailer": "^6.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "name": "jskript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "eslint": "eslint --init"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "express": "^4.17.1",
+        "helmet": "^3.19.0",
+        "morgan": "^1.9.1",
+        "nodemailer": "^6.2.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.3.0",
+        "eslint-config-airbnb": "^17.1.1",
+        "eslint-config-node": "^4.0.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.18.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.14.2",
+        "nodemon": "^1.19.1",
+        "prettier": "^1.18.2"
+    }
 }
